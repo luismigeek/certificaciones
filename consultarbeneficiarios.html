@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="	UTF-8">
+	<title>Consultar Beneficiarios</title>
+	<link rel="stylesheet" type="text/css" href="css\Consultar_Beneficiarios.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img src="imagenes\ministerio.png" width="100" alt="Logotipo"> 
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Index.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="contenedor">
+		<section class="articles">
+			<article>
+				<h2>Consultar Beneficiarios</h2>
+				<p>Digite el tipo y número de Identificación del beneficiario.</p>
+				<br>
+					<form>
+						<label for="tipo">Tipo Documento:</label>
+						<select tipo=""id="tipo">
+							<option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+							<option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+							<option value="Cedula Extranjera">Cedula Extranjera</option>
+						</select>
+						<br><br>
+
+						<label for="numero">Numero Documento:</label>
+						<input type="number" maxlength="10" id="numero">
+						<br><br>
+
+						<label for="nombre">Nombres:</label>
+						<input type="text" maxlength="40" id="nombre" readonly="readonly">
+						<br><br>
+
+						<label for="apellido">Apellidos:</label>
+						<input type="text" maxlength="40" id="apellido" readonly="readonly">
+						<br><br>
+
+						<label for="telefono">Numero Celular:</label>
+						<input type="tel" maxlength="10" id="telefono" readonly="readonly">
+						<br><br>
+
+						<label for="mail">Correo Electronico:</label>
+						<input type="e-mail" maxlength="25" id="mail" readonly="readonly">
+						<br><br>		
+
+						<input type="button" value="Consultar">
+						<br><br>
+
+					</form>
+			</article>
+
+		</section>
+		<aside>
+			<div>
+			<img src="imagenes\img1.jpg" width="272" height="173" alt="Logotipo"> 
+			</div>
+			<br>
+			<div>
+			<img src="imagenes\img2.jpg" width="272" height="182" alt="Logotipo"> 
+			<br>
+			</div>
+		</aside>
+	</section>
+
+	<footer>
+		<p>Todos los Derechos Reservados</p>
+	</footer>
+</body>
+</html>	
